@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "./likelion-theme.css" layer(theme);
+@import "./ui/apple/apple.css";
 
 /* 없는 것을 추가 */
 @utility shape-circle {
