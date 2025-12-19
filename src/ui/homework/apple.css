@@ -143,43 +143,73 @@
 
 /* 카드 컴포넌트 별 배경 이미지 - image-set() 함수 활용 */
 .ipad-pro {
-  background-image: image-set(url(/src/assets/apple/ipad_pro.avif) 1x, url(/src/assets/apple/ipad_pro_2x.avif) 2x);
+  background-image: image-set(
+    url(/src/assets/apple/ipad_pro.avif) 1x,
+    url(/src/assets/apple/ipad_pro_2x.avif) 2x
+  );
 
   @media (min-width: 1024px) {
-    background-image: image-set(url(/src/assets/apple/ipad_pro_wide.avif) 1x, url(/src/assets/apple/ipad_pro_wide_2x.avif) 2x);
+    background-image: image-set(
+      url(/src/assets/apple/ipad_pro_wide.avif) 1x,
+      url(/src/assets/apple/ipad_pro_wide_2x.avif) 2x
+    );
   }
 }
 
 .ipad-air {
-  background-image: image-set(url(/src/assets/apple/ipad_air.avif) 1x, url(/src/assets/apple/ipad_air_2x.avif) 2x);
+  background-image: image-set(
+    url(/src/assets/apple/ipad_air.avif) 1x,
+    url(/src/assets/apple/ipad_air_2x.avif) 2x
+  );
 
   @media (min-width: 1024px) {
-    background-image: image-set(url(/src/assets/apple/ipad_air_wide.avif) 1x, url(/src/assets/apple/ipad_air_wide_2x.avif) 2x);
+    background-image: image-set(
+      url(/src/assets/apple/ipad_air_wide.avif) 1x,
+      url(/src/assets/apple/ipad_air_wide_2x.avif) 2x
+    );
   }
 }
 
 .iphone15-pro {
-  background-image: image-set(url(/src/assets/apple/iphone15_pro.avif) 1x, url(/src/assets/apple/iphone15_pro_2x.avif) 2x);
+  background-image: image-set(
+    url(/src/assets/apple/iphone15_pro.avif) 1x,
+    url(/src/assets/apple/iphone15_pro_2x.avif) 2x
+  );
 
   @media (min-width: 1024px) {
-    background-image: image-set(url(/src/assets/apple/iphone15_pro_wide.avif) 1x, url(/src/assets/apple/iphone15_pro_wide_2x.avif) 2x);
+    background-image: image-set(
+      url(/src/assets/apple/iphone15_pro_wide.avif) 1x,
+      url(/src/assets/apple/iphone15_pro_wide_2x.avif) 2x
+    );
   }
 }
 
 .iphone15 {
-  background-image: image-set(url(/src/assets/apple/iphone15.avif) 1x, url(/src/assets/apple/iphone15_2x.avif) 2x);
+  background-image: image-set(
+    url(/src/assets/apple/iphone15.avif) 1x,
+    url(/src/assets/apple/iphone15_2x.avif) 2x
+  );
 }
 
 .apple-watch {
-  background-image: image-set(url(/src/assets/apple/apple_watch.avif) 1x, url(/src/assets/apple/apple_watch_2x.avif) 2x);
+  background-image: image-set(
+    url(/src/assets/apple/apple_watch.avif) 1x,
+    url(/src/assets/apple/apple_watch_2x.avif) 2x
+  );
 }
 
 .macbook-air {
-  background-image: image-set(url(/src/assets/apple/macbook_air.avif) 1x, url(/src/assets/apple/macbook_air_2x.avif) 2x);
+  background-image: image-set(
+    url(/src/assets/apple/macbook_air.avif) 1x,
+    url(/src/assets/apple/macbook_air_2x.avif) 2x
+  );
 }
 
 .airpods-pro {
-  background-image: image-set(url(/src/assets/apple/airpods_pro.avif) 1x, url(/src/assets/apple/airpods_pro_2x.avif) 2x);
+  background-image: image-set(
+    url(/src/assets/apple/airpods_pro.avif) 1x,
+    url(/src/assets/apple/airpods_pro_2x.avif) 2x
+  );
 }
 
 /* 카드 레이아웃 */
