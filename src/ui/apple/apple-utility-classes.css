@@ -1,5 +1,5 @@
 @theme {
-  --font-sans: "Pretendard Variable", sans-serif;
+  --font-sans: 'Pretendard Variable', sans-serif;
 
   /* 애플 페이지 제작을 위한 커스텀 속성 */
   /* Color */
@@ -61,50 +61,17 @@
   --iphone15-pro-wide-2x: url(/src/assets/apple/iphone15_pro_wide_2x.jpeg);
 
   /* 1배율/2배율 배경이미지 */
-  --ipad-pro-set: image-set(
-    url("/src/assets/apple/ipad_pro.jpeg") 1x,
-    url("/src/assets/apple/ipad_pro_2x.jpeg") 2x
-  );
-  --ipad-pro-wide-set: image-set(
-    url("/src/assets/apple/ipad_pro_wide.jpeg") 1x,
-    url("/src/assets/apple/ipad_pro_wide_2x.jpeg") 2x
-  );
-  --ipad-air-set: image-set(
-    url("/src/assets/apple/ipad_air.jpeg") 1x,
-    url("/src/assets/apple/ipad_air.jpeg") 2x
-  );
-  --ipad-air-wide-set: image-set(
-    url("/src/assets/apple/ipad_air_wide.jpeg") 1x,
-    url("/src/assets/apple/ipad_air_wide_2x.jpeg") 2x
-  );
-  --iphone15-pro-set: image-set(
-    url("/src/assets/apple/iphone15_pro.jpeg") 1x,
-    url("/src/assets/apple/iphone15_pro_2x.jpeg") 2x
-  );
-  --iphone15-pro-wide-set: image-set(
-    url("/src/assets/apple/iphone15_pro_wide.jpeg") 1x,
-    url("/src/assets/apple/iphone15_pro_wide_2x.jpeg") 2x
-  );
-  --apple-watch-set: image-set(
-    url("/src/assets/apple/apple_watch.jpeg") 1x,
-    url("/src/assets/apple/apple_watch_2x.jpeg") 2x
-  );
-  --airpods-pro-set: image-set(
-    url("/src/assets/apple/airpods_pro.jpeg") 1x,
-    url("/src/assets/apple/airpods_pro_2x.jpeg") 2x
-  );
-  --iphone15-set: image-set(
-    url("/src/assets/apple/iphone15.jpeg") 1x,
-    url("/src/assets/apple/iphone15_2x.jpeg") 2x
-  );
-  --macbook-air-set: image-set(
-    url("/src/assets/apple/macbook_air.jpeg") 1x,
-    url("/src/assets/apple/macbook_air_2x.jpeg") 2x
-  );
-  --wwdc24-set: image-set(
-    url("/src/assets/apple/wwdc24.jpeg") 1x,
-    url("/src/assets/apple/wwdc24_2x.jpeg") 2x
-  );
+  --ipad-pro-set: image-set(url('/src/assets/apple/ipad_pro.jpeg') 1x, url('/src/assets/apple/ipad_pro_2x.jpeg') 2x);
+  --ipad-pro-wide-set: image-set(url('/src/assets/apple/ipad_pro_wide.jpeg') 1x, url('/src/assets/apple/ipad_pro_wide_2x.jpeg') 2x);
+  --ipad-air-set: image-set(url('/src/assets/apple/ipad_air.jpeg') 1x, url('/src/assets/apple/ipad_air.jpeg') 2x);
+  --ipad-air-wide-set: image-set(url('/src/assets/apple/ipad_air_wide.jpeg') 1x, url('/src/assets/apple/ipad_air_wide_2x.jpeg') 2x);
+  --iphone15-pro-set: image-set(url('/src/assets/apple/iphone15_pro.jpeg') 1x, url('/src/assets/apple/iphone15_pro_2x.jpeg') 2x);
+  --iphone15-pro-wide-set: image-set(url('/src/assets/apple/iphone15_pro_wide.jpeg') 1x, url('/src/assets/apple/iphone15_pro_wide_2x.jpeg') 2x);
+  --apple-watch-set: image-set(url('/src/assets/apple/apple_watch.jpeg') 1x, url('/src/assets/apple/apple_watch_2x.jpeg') 2x);
+  --airpods-pro-set: image-set(url('/src/assets/apple/airpods_pro.jpeg') 1x, url('/src/assets/apple/airpods_pro_2x.jpeg') 2x);
+  --iphone15-set: image-set(url('/src/assets/apple/iphone15.jpeg') 1x, url('/src/assets/apple/iphone15_2x.jpeg') 2x);
+  --macbook-air-set: image-set(url('/src/assets/apple/macbook_air.jpeg') 1x, url('/src/assets/apple/macbook_air_2x.jpeg') 2x);
+  --wwdc24-set: image-set(url('/src/assets/apple/wwdc24.jpeg') 1x, url('/src/assets/apple/wwdc24_2x.jpeg') 2x);
 }
 
 /* 사용자 정의 컴포넌트 */
